@@ -1,7 +1,11 @@
 #include "main.h"
 
-
-int printf_HEXADECIMAL(va_list val)
+/**
+ * printf_HEX - prints an hexgecimal number.
+ * @val: arguments.
+ * Return: counter.
+ */
+int printf_HEX(va_list val)
 {
 	int i;
 	int *array;

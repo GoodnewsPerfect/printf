@@ -1,6 +1,11 @@
 #include "main.h"
 
-int printf_binary(va_list val)
+/**
+ * printf_bin - prints a binary number.
+ * @val: arguments.
+ * Return: 1.
+ */
+int printf_bin(va_list val)
 {
 	int flag = 0;
 	int cont = 0;

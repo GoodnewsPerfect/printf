@@ -1,7 +1,11 @@
 #include "main.h"
+/**
+ * printf_exclusive_string - print exclusuives string.
+ * @val: argumen t.
+ * Return: the length of the string.
+ */
 
-
-int printf_exstr(va_list val)
+int printf_exclusive_string(va_list val)
 {
 	char *s;
 	int i, len = 0;
@@ -23,7 +27,7 @@ int printf_exstr(va_list val)
 				_putchar('0');
 				len++;
 			}
-			len = len + printf_HEXADECIMAL_X(cast);
+			len = len + printf_HEX_aux(cast);
 		}
 		else
 		{
