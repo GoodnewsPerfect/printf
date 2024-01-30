@@ -7,6 +7,10 @@
 #include <limits.h>
 #include <unistd.h>
 
+
+
+
+
 typedef struct format
 {
 	char *id;
@@ -25,14 +29,15 @@ int printf_binary(va_list val);
 int printf_srv(va_list args);
 int printf_13(va_list args);
 int printf_integer(va_list args);
-int rev_string(char *s);
+int printf_dec(va_list args);
 int _strlen(char *s);
 int *_strcpy(char *dest, char *src);
 int _strlenc(const char *s);
+int rev_string(char *s);
 int _strlenc(const char *s);
 int printf_num37(void);
 int printf_character(va_list val);
-int printf_str0(va_list val);
+int printf_str1(va_list val);
 int _putchar(char c);
 int _printf(const char *format, ...);
 
